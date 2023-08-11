@@ -31,12 +31,11 @@
 }
 
 .barra {
-    background-color: #5c946e !important;
+    background-color: #80c2af !important;
 }
 
 .logo {
     height: 123px;
-    display: inline-block;
 }
 
 .hide {
@@ -53,8 +52,7 @@
     align-items: center;
     margin: 10px 0;
     padding: 10px;
-
-    border: 2px solid #ccc;
+    border: 4px solid #5c946e;
     border-radius: 5px;
 }
 
@@ -116,7 +114,7 @@
 .mini-card button.btn-sumar-modal {
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
-    background-color:#2A2D34;
+    background-color: #2a2d34;
     border: none;
     color: white;
     cursor: pointer;
@@ -127,12 +125,15 @@
 
 .mini-card button.btn-restar-modal:hover,
 .mini-card button.btn-sumar-modal:hover {
-    background-color: #5C946E;
+    background-color: #5c946e;
+}
+.correo {
+    padding: 15px;
 }
 
 /* Estilo para las Cards */
 .card {
-    border-color: #b4e7ce;
+    border-color: #5c946e;
     border-width: 5%;
     font-size: 20px;
 }
@@ -164,14 +165,35 @@
     border: #59a96a;
 }
 
+.btn-cerrar {
+    background-color: #a0dde6;
+    border-color: #80c2af;
+    border: 10px;
+}
+
+/* Estilos del carrusel de fotos */
 .carrusel {
     margin-top: 5%;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Texto introductorio a productos */
 .textoProductos {
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
 }
 
-
+.footer {
+    background-color: #80c2af !important;
+    text-align: center;
+}

@@ -42,11 +42,11 @@ const mostrarCarrito = (carrito) => {
             El Carrito está vacío
         `)
             : (totalCarrito.innerHTML = `
-            <p>Total: $${total}</p>
+            <p class="margin:20px">Total: $${total}</p>
         `);
         if (carrito.length !== 0) {
             divEmail.innerHTML = `
-    <label>Ingrese su Correo electrónico</label>
+    <label style= "padding: 10px">Ingrese su Correo electrónico</label>
     <input type="email" id="email" class="form-control" placeholder="Ingrese su email"></input>`;
             finalizarCompra.classList.add("show");
 

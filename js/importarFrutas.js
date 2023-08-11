@@ -1,9 +1,8 @@
 //DECLARAMOS UNA CLASE FRUTA CON SU CONSTRUCTOR
 class Fruta {
-    constructor(nombre, precio, stock, imagen, id) {
+    constructor(nombre, precio, imagen, id) {
         this.nombre = nombre;
         this.precio = precio;
-        this.stock = stock;
         this.imagen = imagen;
         this.id = id;
     }
@@ -20,7 +19,6 @@ const importarFrutas = async () => {
                 const frutaNueva = new Fruta(
                     fruta.nombre,
                     fruta.precio,
-                    fruta.stock,
                     fruta.imagen,
                     fruta.id
                 );
