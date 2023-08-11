@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Banana",
+        "precio": 600,
+        "stock": 200,
+        "imagen": "../recursos/imagenDeBanana.jpg",
+        "id": 1
+    },
+    {
+        "nombre": "Manzana",
+        "precio": 500,
+        "stock": 50,
+        "imagen": "../recursos/imagenDeManzana.jpg",
+        "id": 2
+    },
+    {
+        "nombre": "Pomelo",
+        "precio": 1000,
+        "stock": 0,
+        "imagen": "../recursos/imagenDePomelo.jpg",
+        "id": 3
+    },
+    {
+        "nombre": "Naranja",
+        "precio": 400,
+        "stock": 500,
+        "imagen": "../recursos/imagenDeNaranja.jpg",
+        "id": 4
+    },
+    {
+        "nombre": "Mandarina",
+        "precio": 450,
+        "stock": 200,
+        "imagen": "../recursos/imagenDeMandarina.jpg",
+        "id": 5
+    },
+    {
+        "nombre": "Pera",
+        "precio": 700,
+        "stock": 10,
+        "imagen": "../recursos/imagenDePera.jpg",
+        "id": 6
+    }
+]

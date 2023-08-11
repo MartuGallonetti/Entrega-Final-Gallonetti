@@ -1,0 +1,177 @@
+/* Paleta de colores */
+/* #30C5FF
+#2A2D34
+#5C946E
+#80C2AF
+#A0DDE6 */
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Encabezado de pagina */
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+.ancho-restringido {
+    max-width: 750px;
+}
+.titulo-logo {
+    font-weight: 300%;
+}
+.nav-link {
+    transition: 0.5s;
+}
+.titulo-pestaña-productos {
+    margin: 20px;
+    padding: 10px;
+}
+
+.barra {
+    background-color: #5c946e !important;
+}
+
+.logo {
+    height: 123px;
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* Estilos para  la mini card */
+.mini-card {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.mini-card:hover {
+    background-color: #faf8f8;
+}
+
+.mini-card-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.mini-card-info {
+    flex-grow: 1;
+    height: 150px;
+    width: 300px;
+}
+.mini-card-info .cantidad-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.cantidad {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mini-card h5 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.mini-card p {
+    font-size: 1.2rem;
+    margin: 1px 0;
+}
+
+.mini-card button {
+    margin-top: 25px;
+    font-size: 0.8rem;
+}
+
+.cantidad {
+    box-sizing: content-box;
+    align-items: flex-end;
+}
+
+.mini-card button.btn-restar-modal,
+.mini-card button.btn-sumar-modal {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    background-color:#2A2D34;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+.mini-card button.btn-restar-modal:hover,
+.mini-card button.btn-sumar-modal:hover {
+    background-color: #5C946E;
+}
+
+/* Estilo para las Cards */
+.card {
+    border-color: #b4e7ce;
+    border-width: 5%;
+    font-size: 20px;
+}
+
+.cartas {
+    margin-bottom: 40px;
+}
+
+/* Estilo del formulario de busqueda */
+.formBusqueda {
+    margin-top: 50px;
+}
+
+/* Estilo de los botones */
+.btn-comprar {
+    border-radius: 20px;
+    color: #59a96a;
+    background-color: white;
+    border-color: #59a96a;
+}
+
+.btn-comprar:hover {
+    background-color: #9bdeac;
+    border: black;
+}
+
+.btn-buscar {
+    background-color: #b4e7ce;
+    border: #59a96a;
+}
+
+.carrusel {
+    margin-top: 5%;
+}
+
+.textoProductos {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
